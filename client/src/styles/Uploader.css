@@ -1,0 +1,19 @@
+.drop-1 {
+    border: 5px dashed #fa7852;
+    color: #fa7852;
+    height: 400px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drop-2 {
+    border: 5px dashed ;
+    color: dimgrey;
+    height: 400px;
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

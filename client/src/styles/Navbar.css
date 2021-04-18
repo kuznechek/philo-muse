@@ -1,0 +1,37 @@
+.n a {
+    text-decoration: none;
+    letter-spacing: 2px;
+    position: relative;
+    padding-bottom: 20px;
+    margin: 0 auto;
+    font-size: 17px;
+    text-transform: uppercase;
+    display: inline-block;
+    transition: color .2s;
+    color: #333333;
+}
+
+.n a:after {
+    display: block;
+    content: "";
+    background-color: #fa7852;
+    height: 3px;
+    width: 0%;
+    left: 50%;
+    position: absolute;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+.n a:hover:after, a:focus:after {
+    width: 100%;
+}
+
+.n a:hover {
+    color: #fa7852;
+    text-decoration: none;
+}

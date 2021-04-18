@@ -1,0 +1,5 @@
+{
+  "port": 4000,
+  "mongoUri": "mongodb+srv://AnastasiaWei:aA3305938@cluster0.bbc9s.mongodb.net/myFirstDatabase?retryWrites=true&w=majority",
+  "storage": "../server/storage"
+}
